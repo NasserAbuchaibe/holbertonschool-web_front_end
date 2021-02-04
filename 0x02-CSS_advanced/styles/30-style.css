@@ -341,11 +341,6 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-.card-work .card-outer {
-  position: relative;
-  overflow: hidden;
-}
-
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -358,7 +353,7 @@ ul.row {
   top: -0.1rem;
   left: -0.1rem;
   right: -0.1rem;
-  z-index: 0;
+  z-index: 1;
 }
 
 .card-work:hover .card-inner {
@@ -391,8 +386,6 @@ ul.row {
 .card-work:hover .card-title {
   opacity: 1;
 }
-
-
 
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
