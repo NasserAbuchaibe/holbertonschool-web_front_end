@@ -1,0 +1,11 @@
+
+/*4. Nested class*/
+$col1: #3D3D3D;
+$col2: #FF0000;
+
+body {
+    color: $col1;
+    .red {
+        color: $col2;
+    }
+}
