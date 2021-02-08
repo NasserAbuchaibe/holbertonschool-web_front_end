@@ -1,0 +1,19 @@
+/*9. Extended*/
+
+$fz: 12px;
+$color1: #00FF00;
+$color2: #FF0000;
+
+.info {
+    font-size: $fz;
+}
+
+.success {
+    color: $color1;
+    @extend .info;
+}
+
+.warning {
+    color: $color2;
+    @extend .info;
+}
