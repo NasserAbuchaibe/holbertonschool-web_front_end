@@ -1,0 +1,17 @@
+/*8. Margin mixin*/
+
+$mg1: 10px;
+$mg2: 15px;
+
+@mixin mg_lr($mar) {
+    margin-right: $mar;
+    margin-left: $mar;
+}
+
+body {
+    @include mg_lr($mg1);
+}
+
+div {
+    @include mg_lr($mg2)
+}
