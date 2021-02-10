@@ -329,14 +329,14 @@ a:active {
 /* Grid
       ============================= */
 
-.row {
-  display: flex;
-}
-
 ul.row {
   margin: -1rem;
   padding: 0;
   list-style: none;
+}
+
+.row {
+  display: flex;
 }
 
 [class*="col-"] {
@@ -411,7 +411,6 @@ ul.row {
   display: flex;
   justify-content: space-between;
 }
-
 
 /* Footer
       ============================= */
@@ -518,7 +517,6 @@ ul.row {
 }
 
 /* Section SERVICES ============================= */
-
 .section-services .row {
   flex-wrap: wrap;
 }
